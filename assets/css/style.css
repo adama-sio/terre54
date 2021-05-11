@@ -178,10 +178,7 @@ p{
 
 
 
-body {
-  font: 400 14px/1.4 "Segoe UI", "Helvetica Neue", Roboto, Arial, sans-serif;
-  background: #ececec;
-}
+
 
 .images {
   display: flex;
@@ -189,23 +186,25 @@ body {
 
 .image {
   margin: 0;
-  margin-left: 100px;
-  margin-right: 100px; 
   flex: 1;
-
-  background: #fff;
- 
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .image + .image {
-  margin-left: 10px;
+  margin-left: 30px;
+
 }
 
 .image-item {
   width: 100%;
-  position: relative;
-  
-  
+  vertical-align: top;
+   border-radius: 2em;
+}
+
+.image-description {
+  margin-top: 10px;
+  color: #FFFFFF;
 }
 
 
@@ -215,6 +214,9 @@ body {
   position: relative;
   text-align: center;
   color: red;
+   width : 150px;
+    padding-left : 32px;
+
 }
 
 .texte_centrer {
@@ -248,26 +250,28 @@ float: right;
 padding-bottom: 200px; 
 }
 .newsletter{
- 
-}
+ margin-top:5%;
+ background: #0E1428;
 
-.border{
-  
+border-radius: 10px;
 width: 1240px;
 height: 236px;
-left: 100px;
-top: 35px;
-
-background: #0E1428;
-box-shadow: 0px 0px 28.67px rgba(29, 53, 87, 0.46);
-border-radius: 10px;
+margin-left: 5%;
+top: 5%;
+margin-right: 100px;
+right: 5%;
+bottom: 5%;
 }
 
+
 form { 
-width:30%;
+padding-top: 10%;
 text-align: center;
  }
 
-
+.SERVICES {
+  align-items: center;
+  text-align: center;
+}
 
 
